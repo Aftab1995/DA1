@@ -151,4 +151,4 @@ It answers the following question in this case.
 
 I have created a procedure (payment_by_year) that gives the payment methodologies based on the count of each payment methodology in each year. The analysts can enter a specific year when calling the procedure to get year wise top payment types used by the customers.
 
- 
+## The Complete script of the project can be accessed [here](Individual_Project_Script.sql)
