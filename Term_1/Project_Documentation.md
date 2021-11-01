@@ -11,6 +11,9 @@ My goal was to first create a central data warehouse using different datasets pr
 ## Creation of the Operational Layer:
 
 I first created the database/schema Brazillian_Olist and used it for my further working. In this database, I created different tables for each datafile I received from the company, defined my columns, and then loaded the data into individual tables.
+
+![Plan-Brazillian_Olist.png](Plan-Brazillian_Olist.png)
+
 Before loading, 3 of the csv data files needed some cleaning so I performed a few cleaning operations using Excel. The changes made to each of these data files before loading are as follows:
  
 **1-	Customer file:**
@@ -94,8 +97,10 @@ Table Descriptions:
 For the analytical layer, I created the data warehouse and stored it into the table Olist_DW. The data warehouse contains specific fields from all the above listed tables. 
 To create the data warehouse, I first created a procedure that would join the tables to create the data warehouse. However, due to the computational limitations of my machine, I had to divide the joining into two steps.
 It first joins the tables Orders_Main, Customers, geolocation, and Order_Reviews and stores these in a table called Customer_Order_Main. Then it joins this Customer_Order_Main table with Payments, Order_Items, sellers, and products to create the final Olist_DW datawarehouse. Finally, after creating the data warehouse, it deletes the temporary table Customer_Order_Main to decrease the load on the server. 
+
 A quick snapshot of the data warehouse table is as follows.
  
+![Data-DW_Olist.png](Data-DW_Olist.png)
 
 ## DATA MART:
 
