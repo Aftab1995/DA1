@@ -37,11 +37,6 @@ Ignore 1 Lines
 
 SHOW COLUMNS FROM customers;
 
-SELECT `COLUMN_NAME` 
-FROM `INFORMATION_SCHEMA`.`COLUMNS` 
-WHERE `TABLE_SCHEMA`='brazillian_olist' 
-    AND `TABLE_NAME`='customers';
-
 # Creating the 2nd table GeoLocation.
 # Deleted duplicate values using Excel. Since the file is supposed to give unique zipcodes for Brazil. The data was collected from multiple sources, hence contained duplicate
 # values for zipcodes with slight variations in lat and long which signified the different centroid considered by each data provider.
@@ -258,7 +253,7 @@ BEGIN
 	review_id, review_score, review_creation_date, review_filled_date
 
 	from orders_main m
-	left join customers c
+	inner join customers c
 	using (customer_id)
 	left join geolocation g
 	on g.zipcode=c.customer_zipcode
@@ -307,6 +302,7 @@ BEGIN
 End //
 Delimiter ;
 
+
 # Running the procedure Olist_DW
 Call Olist_DW();
 ###############################
@@ -322,6 +318,8 @@ select order_id, product_category, order_purchase_date, year(order_purchase_date
 from olist_dw
 where order_status = 'Delivered' and product_category is not null
 order by order_purchase_year;
+
+select * from categories_by_year limit 5;
 
 Drop procedure if exists categories_by_year;
 
@@ -432,7 +430,14 @@ Delimiter ;
 
 call payment_type_year(2017);
 
+# Extracting columns names from olist_dw for documentation
 
+SELECT `COLUMN_NAME` 
+FROM `INFORMATION_SCHEMA`.`COLUMNS` 
+WHERE `TABLE_SCHEMA`='brazillian_olist' 
+    AND `TABLE_NAME`='olist_dw';
+    
+select * from olist_dw limit 5;
 
  
 
