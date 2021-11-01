@@ -77,7 +77,7 @@ Table Descriptions:
 
 ### Database EER Diagram:
 
-![EER Diagram](/TERM_1/EER-Brazillian_Olist.png)
+![EER_Brazillian_Olist](EER-Brazillian_Olist.png)
  
 ### Analytical Questions:
 
@@ -109,7 +109,7 @@ It also answers the following question.
 
 **Top 5 categories in terms of sales by year?**
 
-![View 1 Analytics](/TERM_1/view1.png)
+![View_1](view1.png)
 
 I have created a procedure (categories_by_year) here that allows the analysts to enter a specific year when calling the procedure and get the top 5 best performing products by counting the instances of each product ordered. 
 
@@ -122,7 +122,7 @@ It answers the following question in this case.
 
 **Top 5 sellers by year?**
 
-![View 1 Analytics](/TERM_1/view2.png)
+![View 1 Analytics](view2.png)
 
 I have created a procedure (sellers_by_year) here that allows the analysts to enter a specific year when calling the procedure and get the top 5 best performing sellers in terms of orders delivered by counting the order ids. 
 
@@ -137,7 +137,7 @@ It answers the following question in this case.
 
 **Top 5 sellers by average review score by year?**
 
-![View 1 Analytics](/TERM_1/view3.png)
+![View 1 Analytics](view3.png)
 
 I have created a procedure (sellers_by_review) that gives the average review score of each seller and then provides us with the top 5 sellers based on the reviews provided in each year. The analysts can enter a specific year when calling the procedure to get year wise top 5 sellers list by average review score.
 
@@ -147,7 +147,7 @@ This view contains order_id, year(order_purchase_date) as payment_year, and paym
 It answers the following question in this case.
 **Most famous payment type by year?**
 
-![View 1 Analytics](/TERM_1/view4.png)
+![View 1 Analytics](view4.png)
 
 I have created a procedure (payment_by_year) that gives the payment methodologies based on the count of each payment methodology in each year. The analysts can enter a specific year when calling the procedure to get year wise top payment types used by the customers.
 
