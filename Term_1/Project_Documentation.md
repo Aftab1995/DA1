@@ -64,7 +64,7 @@ Table Descriptions:
 
 1-	1:n between Geolocation and Customers table. Since there could be multiple customers ordering from the same zip code. The tables will be joined using zipcodes.
 
-2-	1:n between the Customers and Orders_Main table. Since there could be multiple orders placed by the 1 customer. The tables will be joined using customer_id.
+2-	1:1 between the Customers and Orders_Main table. Since each individual order_id has a unique customer_id in the customers table. This customer_id is different from the customer_unique_id in the sense that the latter is to define a unique customer whereas the prior is created for a unique order_id. The tables will be joined using customer_id.
 
 3-	1:n between Orders_Main and Order_Reviews table. As a customer could order multiple items in a single order and get multiple review forms for each product. The tables will be joined using order_id.
 
