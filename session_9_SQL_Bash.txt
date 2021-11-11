@@ -1,0 +1,500 @@
+  118  git branch -M main
+  119  nano README.txt
+  120  mv README.txt README.md
+  121  ls
+  122  git add README.md 
+  123  git commit -m "This is the readme file created on command line"
+  124  git push
+  125  git push https://github.com/Aftab1995/ubiquitous-parakeet.git
+  126  git pull
+  127  nano README.md 
+  128  git pull https://github.com/Aftab1995/ubiquitous-parakeet.git
+  129  nano README.md 
+  130  git status
+  131  git log
+  132  ls
+  133  ls -a
+  134  git pull https://github.com/Aftab1995/ubiquitous-parakeet.git
+  135  branch
+  136  * branch
+  137  git status
+  138  git pull https://github.com/Aftab1995/ubiquitous-parakeet.git
+  139  git status
+  140  git log
+  141  git pull https://github.com/Aftab1995/ubiquitous-parakeet.git
+  142  git status
+  143  git pull
+  144  git status
+  145  git status
+  146  nano README.md
+  147  git status
+  148  git add README.md 
+  149  git commit -m "added a line at the end of the readme"
+  150  git pull
+  151  git status
+  152  nano README.md 
+  153  git pull https://github.com/Aftab1995/ubiquitous-parakeet.git
+  154  git status
+  155  Merge branch 'main' of https://github.com/Aftab1995/ubiquitous-parakeet.git
+  156  ls
+  157  ls -a
+  158  cd ..
+  159  ls -a
+  160  rmdir -r last_class/
+  161  rm -r last_class/
+  162  ls -a
+  163  cd last_class/
+  164  ls -a
+  165  cd ..
+  166  ls -a
+  167  mkdir last_class
+  168  cd last_class/
+  169  git init
+  170  nano README.md
+  171  git add README.md 
+  172  git commit -m "readme created on command line"
+  173  git status
+  174  git pull git pull
+  175  git pull https://github.com/Aftab1995/ubiquitous-parakeet.git
+  176  git status
+  177  ls -a
+  178  nano README.md 
+  179  git push https://github.com/Aftab1995/ubiquitous-parakeet.git
+  180  git push 
+  181  git push https://github.com/Aftab1995/ubiquitous-parakeet.git
+  182  git status
+  183  git pull https://github.com/Aftab1995/ubiquitous-parakeet.git
+  184  cd ..
+  185  ls -a
+  186  mkdir practice
+  187  ls
+  188  cd practice
+  189  git init
+  190  git pull https://github.com/Aftab1995/Practice.git
+  191  ls
+  192  git clone
+  193  nano districts_budapest.txt
+  194  git add districts_budapest.txt 
+  195  git commit -m "Started adding district numbers to the file"
+  196  git status
+  197  git push
+  198  git push https://github.com/Aftab1995/Practice.git
+  199  git log
+  200  history | grep "#"
+  201  git push -u origin
+  202  git log
+  203  git pull
+  204  git pull https://github.com/Aftab1995/Practice.git
+  205  git status
+  206  nano districts_budapest.txt 
+  207  git add districts_budapest.txt 
+  208  git commit -m "asked to add 1 district number"
+  209  git push 
+  210  git status
+  211  git push https://github.com/Aftab1995/Practice.git
+  212  git log
+  213  git pull https://github.com/Aftab1995/Practice.git
+  214  nano districts_budapest.txt 
+  215  cd..
+  216  cd ..
+  217  ls
+  218  rm -r practice/
+  219  y
+  220  y
+  221  ls
+  222  cd practice/
+  223  ls -a
+  224  cd ..
+  225  history | grep "clone"
+  226  git clone https://github.com/Aftab1995/Practice.git
+  227  ls
+  228  cd practice/
+  229  ls -a
+  230  nano districts_budapest.txt 
+  231  git add districts_budapest.txt 
+  232  git commit -m "cloned repository"
+  233  git push
+  234  git log
+  235  git status
+  236  git pull
+  237  nano districts_budapest.txt 
+  238  git add districts_budapest.txt 
+  239  git commit -m "still no error"
+  240  git push
+  241  git status
+  242  git pull
+  243  nano districts_budapest.txt 
+  244  nano districts_budapest.txt 
+  245  git pull
+  246  nano districts_budapest.txt 
+  247  git add districts_budapest.txt 
+  248  git commit -m "hopefully this will work"
+  249  git pull
+  250  nano districts_budapest.txt 
+  251  git add districts_budapest.txt 
+  252  git commit -m "resolved the conflict by deleting the dashes and the identification number"
+  253  git status
+  254  git push
+  255  git status
+  256  pwd
+  257  ls
+  258  cd C:\Users\Aftab\Documents
+  259  ls
+  260  cd My\ Documents/
+  261  ls
+  262  cd Courses/
+  263  cd DA1/
+  264  git remote add origin https://github.com/Aftab1995/DA1.git
+  265  git branch -M main
+  266  git push -u origin main
+  267  git init
+  268  git remote add origin https://github.com/Aftab1995/DA1.git
+  269  git branch -M main
+  270  git push -u origin main
+  271  ls -a
+  272  cd HW1/
+  273  ls
+  274  git add birdstrikes_small.csv 
+  275  git status
+  276  cd ..
+  277  ls -a
+  278  git add HW1/
+  279  git commit -m "Added the 1st homework"
+  280  git status
+  281  git log
+  282  git status
+  283  ls
+  284  cd HW1/
+  285  ls
+  286  cd ..
+  287  git add HW1/
+  288  git commit -m "Added the first homework folder"
+  289  git push
+  290  git push -u origin main
+  291  ls
+  292  cd HW1/
+  293  ls
+  294  cd ..
+  295  git push
+  296  git push -u origin main
+  297  cd ..
+  298  ls
+  299  cd DE1/
+  300  ls -a
+  301  git add HW1/
+  302  git commit -m "added the first homework database"
+  303  git status
+  304  git push -u origin main
+  305  ls -a
+  306  ls
+  307  git add HW1/
+  308  git commit -m "added the first homework ls
+  309  ls =a
+  310  ls =a
+  311  ls -a
+  312  git add HW1/
+  313  git commit -m "added the us police shootings dataset"
+  314  git push -u origin main
+  315  git remote add origin https://github.com/Aftab1995/DA1.git
+  316  git branch -M main
+  317  git push -u origin main
+  318  ls -a
+  319  cd HW1/
+  320  ls =a
+  321  ls -a
+  322  cd us_police_shootings/
+  323  ls -a
+  324  cd ..
+  325  cd ..
+  326  cd ..
+  327  cd DE1/
+  328  git push -u origin main
+  329  git reset --soft HEAD~1
+  330  git status
+  331  git reset
+  332  git status
+  333  git add HW1/
+  334  git commit -m "added dataset for us police shootings"
+  335  git push
+  336  git push -u origin main
+  337  git reset
+  338  git status
+  339  git reset --soft HEAD~1
+  340  git status
+  341  git restore --HW1/imdb_actors.zip
+  342  git reset HEAD HW1/imdb_actors.zip
+  343  git status
+  344  git rm --cached HW1/imdb_actors.zip
+  345  git status
+  346  git commit --amend 
+  347  git status
+  348  git add HW1
+  349  git status
+  350  git ls-files
+  351  git ls-a
+  352  git ls -a
+  353  ls -a
+  354  git add HW1/
+  355  git status
+  356  git commit -m "added the us police shootings dataset"
+  357  git reset
+  358  git status
+  359  git log
+  360  git add HW1/
+  361  git push -u origin main
+  362  ls -a
+  363  cd ..
+  364  ls -a
+  365  mkdir DE1
+  366  ls -a
+  367  cd DE1/
+  368  git clone https://github.com/Aftab1995/DA1.git
+  369  ls -a
+  370  mv DA1/ DE1/
+  371  ls -a
+  372  cd ..
+  373  ls -a
+  374  cd DE1/
+  375  mv DE1/ ~/My\ Documents/Courses/
+  376  mv -r DE1/ ~/My\ Documents/Courses/
+  377  mv --help
+  378  mv -f DE1/ ~/My\ Documents/Courses/
+  379  cd ..
+  380  ls -a
+  381  cd DE1/
+  382  ls -a
+  383  cd ..
+  384  mv us_police_shootings/ DE1/
+  385  ls -a
+  386  cd DE1/
+  387  ls
+  388  mkdir HW1
+  389  mv us_police_shootings/ HW1/
+  390  ls
+  391  git add HW1/
+  392  git status
+  393  git commit -m "Added the US police shootings dataset"
+  394  git push
+  395  git pull
+  396  ls -a
+  397  mv README.md HW1/
+  398  ls -a
+  399  git status
+  400  git add HW1/
+  401  git commit -m "added Read me file"
+  402  git push
+  403  pwd
+  404  ls
+  405  cd OneDrive\ -\ Central\ European\ University/
+  406  ls
+  407  cd Documents/
+  408  ls
+  409  cd desktop.ini 
+  410  cd ..
+  411  cd ..
+  412  ls
+  413  cd Documents/
+  414  ls
+  415  cd My\ Pictures 
+  416  cd ..
+  417  ls
+  418  cd Courses\ -\ Shortcut.lnk 
+  419  cd ~\Users\Aftab\OneDrive/ -/ Central/ European/ University\Desktop\Courses
+  420  cd OneDrive/ -/ Central/ European/ University\Desktop\Courses
+  421  cd OneDrive\ -\ Central\ European\ University\Desktop\Courses
+  422  ls
+  423  cd Courses/
+  424  ls
+  425  cd DE1/
+  426  ls
+  427  git add HW2/
+  428  git commit -m "added HW2 .SQL file"
+  429  git push
+  430  git pull
+  431  git status
+  432  git pull
+  433  git push
+  434  exit
+  435  pwd
+  436  ls
+  437  cd Courses/
+  438  pwd
+  439  ls -a
+  440  cd DE1/
+  441  ls -a
+  442  git pull
+  443  pwd
+  444  ls 
+  445  cd Courses/
+  446  cd de1/
+  447  pwd
+  448  git add HW7
+  449  git status
+  450  git add -m "Uploading the assignment 1 & 2"
+  451  git push
+  452  git log
+  453  git add HW7
+  454  git commit -m "Completed the Assignment 1 & 2 for Session 7"
+  455  git push
+  456  git log
+  457  exit
+  458  [core]
+  459  	repositoryformatversion = 0
+  460  	filemode = false
+  461  	bare = false
+  462  	logallrefupdates = true
+  463  	ignorecase = true
+  464  [remote "origin"]
+  465  	url = git@github.com:CEU-Economics-and-Business/ECBS-5208-Coding-1-Business-Analytics.git
+  466  	fetch = +refs/heads/*:refs/remotes/origin/*
+  467  [branch "master"]
+  468  	remote = origin
+  469  	merge = refs/heads/master
+  470  ssh -T git@github.com
+  471  git init
+  472  .DS_Store
+  473  .Rhistory
+  474  .Rproj.user
+  475  update
+  476  git pull
+  477  pwd
+  478  ssh -T git@gitlab.com
+  479  ssh
+  480  token
+  481  git ls-remote https://github.com/org/repo.git
+  482  ssh -T git@github.com
+  483  git ls-remote https://github.com/org/repo.git
+  484  ssh
+  485  S
+  486  -S
+  487  ssh -S
+  488  ssh -S ctl_path
+  489  git ls-remote https://github.com/org/repo.git
+  490  git ls-remote https://github.com/org/repo.git
+  491  ssh -T git@github.com
+  492  ssh -T git@github.com$ ssh -T git@github.com
+  493  tail -f /var/log/auth.log
+  494  sudo nano /etc/ssh/sshd_config
+  495  service sshd restart
+  496  $ ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key
+  497  $ ssh-keygen -t dsa -f /etc/ssh/ssh_host_dsa_key
+  498  $ ssh-keygen -t ecdsa -f /etc/ssh/ssh_host_ecdsa_key
+  499  $ /etc/init.d/sshd start
+  500  $ $ /etc/init.d/sshd start
+  501  pwd
+  502  lf
+  503  lf -a
+  504  ls
+  505  cd Courses/
+  506  ls
+  507  cd DE1
+  508  ls
+  509  ls
+  510  pwd
+  511  ls -l
+  512  mkdir bash
+  513  git clonepwd
+  514  pwd
+  515  ls
+  516  cd bash/
+  517  git clone https://github.com/CEU-Economics-and-Business/ECBS-5146-Different-Shapes-of-Data
+  518  ls -l
+  519  ls
+  520  cd ECBS-5146-Different-Shapes-of-Data/
+  521  ls
+  522  ls -l
+  523  clear
+  524  ls -l
+  525  cd ECBS-5146-Data-Engineering-2_-Different-Shapes-of-Data.docx 
+  526  cd ECBS-5146-Different-Shapes-of-Data/artifacts/bash/
+  527  cd ..
+  528  ls
+  529  cd ..
+  530  ls
+  531  cd bash/
+  532  ls
+  533  cd ECBS-5146-Different-Shapes-of-Data/
+  534  ls
+  535  cd _data/
+  536  ls
+  537  cd ..
+  538  cd artifacts/
+  539  ls
+  540  cd bash/
+  541  ls
+  542  cat birdstrikes.csv 
+  543  head -3 birdstrikes.csv 
+  544  head -n 3 birdstrikes.csv 
+  545  tail -5 birdstrikes.csv 
+  546  head --help
+  547  head -10 birdstrikes.csv > first10.csv
+  548  nano first10.csv 
+  549  cat first10.csv 
+  550  head -10 birdstrikes.csv | tail -1
+  551  tail -1 first10.csv 
+  552  head 9,1 birdstrikes.csv 
+  553  head -7 birdstrikes.csv | tail -2 > myprettypony.csv
+  554  cat myprettypony.csv 
+  555  cat birdstrikes.csv | grep California
+  556  cat birdstrikes.csv | grep California | head -5
+  557  cat birdstrikes.csv | grep -v California | head -5
+  558  cat birdstrikes.csv | grep -v California | head -10
+  559  cat birdstrikes.csv | grep -v California | head -20
+  560  cat birdstrikes.csv | grep -v California | head -25
+  561  cat birdstrikes.csv | grep -i california | head -5
+  562  cat birdstrikes.csv | grep california | head -5
+  563  cat birdstrikes.csv | grep -i california | head -5
+  564  wc birdstrikes.csv 
+  565  head -10 Hamlet.txt | wc
+  566  head -10 Hamlet.txt
+  567  head -10 Hamlet.txt | wc
+  568  wc | head -10 Hamlet.txt 
+  569  head -10 Hamlet.txt | wc
+  570* cat birdstrikes.csv | grep -i california | wc -
+  571  wc --help
+  572  cat birdstrikes.csv | grep -i california | wc -l
+  573  head -10 Hamlet.txt | wc -w
+  574  cat birdstrikes.csv | cut -d ';' -f1 | head -1
+  575  cut --help
+  576  cat birdstrikes.csv | cut -d ';' | head -1
+  577  cat birdstrikes.csv | cut -d ';' -f1 | head -1
+  578  cat birdstrikes.csv | cut -d ';' -f3 | head -1
+  579  cat birdstrikes.csv | cut -d ';' -f1 | head -1
+  580  cat birdstrikes.csv | cut -d ';' -f4,10 | head -11
+  581  cat birdstrikes.csv | cut -d ';' -f4,10 | head -11 > new.csv
+  582  cat birdstrikes.csv | cut -d ';' -f1-3,5-9,11-  > new1.csv
+  583  cat new.csv 
+  584  cat new1.csv 
+  585  cat new1.csv | head -10
+  586  head -1 birdstrikes.csv 
+  587  cat birdstrikes.csv | cut -d ';' -f6,9 | head -17 | tail -1 > onerepublic.csv
+  588  cat onerepublic.csv 
+  589  cat birdstrikes.csv | cut -d ';' -f6,9 | head -18 | tail -1 > onerepublic.csv
+  590  cat onerepublic.csv 
+  591  cat birdstrikes.csv | cut -d ';' --complement -f4,10  > new1.csv
+  592  cat new1.csv
+  593  cut --help
+  594  cat onerepublic.csv 
+  595  sort birdstrikes.csv | head -10
+  596  sort -n birdstrikes.csv | head -10
+  597  sort --help
+  598  cat birdstrikes.csv | sort -t ';' -k4 -r | head -10
+  599  cat birdstrikes.csv | sort -t ';' -k10 -nr | head -1
+  600  cat birdstrikes.csv | sort -t ';' -k10 -n | head -1
+  601  cat birdstrikes.csv | sort -t ';' -k10 -nr | cut -d ';' -f10 | head -1
+  602  history > SQL_Bash.txt
+  603  history.txt
+  604  get SQL_Bash.txt 
+  605  cat SQL_Bash.txt 
+  606  nano sentiment.sh
+  607  get sentiment.sh 
+  608  cat sentiment.sh 
+  609  nano sentiment.sh 
+  610  sentiment.sh Hamlet.txt
+  611  sh sentiment.sh Hamlet.txt
+  612  sh sentiment.sh The_Half-Blood_Prince.txt 
+  613  sh sentiment.sh Sorcerer.txt 
+  614  sh sentiment.sh The_Winter_of_Our_Discontent.txt 
+  615  sh sentiment.sh The_Winter_of_Our_Discontent.txt Sorcerer.txt 
+  616  sh sentiment.sh The_Winter_of_Our_Discontent.txt The_Half-Blood_Prince.txt 
+  617  history > SQL_Bash.txt
