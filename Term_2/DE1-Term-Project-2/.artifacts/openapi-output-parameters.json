@@ -1,0 +1,14 @@
+
+{
+    "type": "object",
+    "properties": {
+        "json-output": {
+            "type": "object",
+            "properties": {
+            },
+            "description": "",
+            "example": {
+            }
+        }
+    }
+}
