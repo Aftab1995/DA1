@@ -18,7 +18,7 @@ The project uses MySQL Workbench to load the Times Data and Education Expenditur
 
 An EER diagram is created based on these linkages, as shown below. The Educ_DW EER diagram is supplemented by two more tables (Country Codes, World Bank API) that are joined with the Educ_DW in Knime. Hence, the following EER summarizes the overall relationship between the tables used in the project. 
 
-![EER Diagram](Term_2/EER_Diagram.png) 
+![EER Diagram](Images/EER_Diagram.png) 
 
 ### World Bank API 
 
@@ -36,7 +36,7 @@ The first workflow annotation which includes two nodes is the starting point of 
 
 We have used the File Reader node to upload the Country Codes csv file which we obtained from [GitHub](https://gist.github.com/tadast/8827699). This file contains the codes for each country as the ‘Alpha-2 code’ column and we add it as another column in our main data table (Educ_dw) alongside country names. These were joined using a left outer join.  
 
-![alpha codes](Term_2/Countrycodes.png)
+![alpha codes](Images/Countrycodes.png)
 
 #### b) Data Cleaning 
 
@@ -57,7 +57,7 @@ So we converted these different formats into percentages to make it easier for u
   ##### Rejoining A and B paths
   ##### - Filtering out columns not needed
   
-![Data Cleaning](Term_2/Data_Cleaning.png)
+![Data Cleaning](Images/Data_Cleaning.png)
 
 #### c) Joiner 
 
@@ -71,7 +71,7 @@ Created a [URL](http://api.worldbank.org/v2/country/all/indicator/GB.XPD.RSDV.GD
 
 This node groups the rows based on the 2-digit country codes and the URL. Following are the grouped columns.  
 
-![Group By](Term_2/Groupby_pre-visual.png)
+![Group By](Images/Groupby_pre-visual.png)
 
 #### f) Missing Value 
 
@@ -95,7 +95,7 @@ This node is used to extract the values of R&D as a percentage of GDP.
 
 This node is used to filter out the columns that are not required for our analysis. Following is the list of columns that we have carried forward.  
 
-![Column Filter](Term_2/Column-Filter.png)
+![Column Filter](Images/Column-Filter.png)
 
 ### Visualization 1: University World Ranking by % of International Students 
 
@@ -115,7 +115,7 @@ The row filter node only includes higher education institutions for the charts a
 
 This node is used to create manual bins for the world_rank column. It is done to make sure the final bar chart is visually appealing to the viewer. Following are the bins. 
 
-![Numeric Binner](Term_2/Bins-V1.png)
+![Numeric Binner](Images/Bins-V1.png)
 
 #### c) Bar Charts 
 
@@ -123,13 +123,13 @@ The first bar chart node creates a bar chart of percentage of international stud
 
 A general trend is visible from the chart where top universities have more international students compared to low rated universities. However, whether there is a correlation between these two variables cannot be defined from this chart as further analysis will be required to determine such a relationship. 
  
-![Bar Chart](Term_2/University_Ranking.png)
+![Bar Chart](Images/University_Ranking.png)
 
 The second bar chart node creates a bar chart of percentage of female students in a university vs its World ranking. 
 
 There is no clear trend in the chart, however, it seems like high ranked universities have lower percentage of females compared to lower ranked universities.
 
-![Bar Chart 2](Term_2/Images/World_Rank_Females.png)
+![Bar Chart 2](Images/World_Rank_Females.png)
 
 ### Visualization 2: Government Spending on Education  
 
@@ -145,7 +145,7 @@ The first row filter excludes the ‘Total Expenditure’ so we can select eithe
 
 This node groups the following columns for the visualization ahead.  
  
-![Group By](Term_2/Group-ByV2.png)
+![Group By](Images/Group-ByV2.png)
 
 #### c) Sunburst Chart 
 
@@ -153,7 +153,7 @@ This node creates a Sunburst Chart to visualize the percentage of public or priv
 
 The innermost circle shows all the countries. Starting from the countries that spent the most in a clockwise direction. Then we can select the type of institution and finally either public or private spending as a percentage of the country’s GDP. This is all done by hovering the mouse over each fragment and based on the hover, the results are displayed on the top left corner. For example, the following image shows the results for public spending in New Zealand for elementary schools and secondary schools. 
 
-![Sunburst Chart](Term_2/Education_Expenditure.png)
+![Sunburst Chart](Images/Education_Expenditure.png)
 
 ### Visualization 3: Government spending on R&D as a % of GDP to Total Scores of Universities 
 
@@ -163,13 +163,13 @@ The purpose of this node is to answer the question, how are the research and dev
 
 This node groups the columns shown below. 
 
-![Group By](Term_2/Group-ByV3.png)
+![Group By](Images/Group-ByV3.png)
 
 #### b) Scatter Plot 
 
 This node is used to create a quick scatter plot of the two above-mentioned variables before running a regression. It seems difficult to extract a clear relationship from the scatter plot as total, hence, we went forward with the regression analysis.  
 
-![Scatter Plot](Term_2/scatterplot.png) 
+![Scatter Plot](Images/scatterplot.png) 
 
 The scatter plot below has Total Score on the y-axis where a higher total score translates into a better ranking. The x-axis gives the R&D expenditure as a percentage of GDP. 
 
@@ -185,11 +185,11 @@ Plugging in the values, this becomes: Total score = 59.2 - 1.2 * R&D
 
 As we can see from the table, the model’s R-square is low. The beta coefficient is –1.69 which suggest a negative relationship contrary to our hypothesis, however, it is not significant (P-value ~0.28) so we cannot reject that the coefficient is zero. Thus, there is no meaningful relationship between the R&D expenditure as a percentage of GDP and the total score received by a university.  
 
-![Regression Table](Term_2/Regression_Table.png)
+![Regression Table](Images/Regression_Table.png)
 
 In the regression plot below, we have Total Score on the y-axis where a higher total score translates into a better ranking. The x-axis gives the R&D expenditure as a percentage of GDP. 
  
-![Regression Plot](Term_2/Regression_Plot.png)
+![Regression Plot](Images/Regression_Plot.png)
 
 ### Team Members’ Contributions: 
 
