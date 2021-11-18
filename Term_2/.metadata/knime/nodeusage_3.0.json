@@ -166,9 +166,9 @@
             },
             {
                 "id": "org.knime.dynamic.js.v30.DynamicJSNodeFactory#Bar Chart",
-                "nrexecs": 37,
+                "nrexecs": 42,
                 "nrfails": 0,
-                "exectime": 13545,
+                "exectime": 14826,
                 "nrcreated": 2,
                 "successor": "n/a"
             },
@@ -218,14 +218,14 @@
         "wrappedNodes": {
         }
     },
-    "uptime": 13896816,
+    "uptime": 19631152,
     "workflowsOpened": 1,
     "remoteWorkflowsOpened": 0,
     "workflowsImported": 0,
     "workflowsExported": 0,
-    "launches": 7,
+    "launches": 9,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 539031,
+    "timeSinceLastStart": 217932,
     "crashes": 0,
     "properlyShutDown": true
 }
